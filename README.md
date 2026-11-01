@@ -1,4 +1,4 @@
-# Itfoot
+8# Itfoot
 
 Android ke liye ek React Native (Expo) app, do core features ke saath:
 
@@ -35,3 +35,34 @@ npx expo start
 npx expo prebuild
 npx expo run:android
 Paste karne ke baad neeche scroll karke **"Commit changes"** (green button) dabayein. Ye hua **File 12/12** — ab tak jo bhi files ho chuki hain, baaki bachi hui files ke liye wahi `github.com/viraj0950i-hue/Itfoot-/new/main` URL dubara use karein.
+{
+  "name": "itfoot",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~51.0.0",
+    "expo-status-bar": "~1.12.1",
+    "expo-speech": "~12.0.2",
+    "expo-location": "~17.0.1",
+    "expo-sms": "~12.0.1",
+    "expo-haptics": "~13.0.1",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/native-stack": "^6.9.26",
+    "react-native-screens": "~3.31.1",
+    "react-native-safe-area-context": "4.10.5",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-native-voice/voice": "^3.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0"
+  }
+}
